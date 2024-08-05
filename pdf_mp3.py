@@ -1,5 +1,6 @@
 import PyPDF2
 import pyttsx3
+import sys fromgi
 
 def extract_txt(pdf_path):
     with open(pdf_path, 'rb') as file:
